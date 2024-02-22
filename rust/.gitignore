@@ -1,0 +1,18 @@
+*.swp
+target/
+**/*.rs.bk
+.DS_Store
+*.pdb
+**/Cargo.toml
+**/Cargo.lock
+rust-project.json
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.iml
+*.o
+public/
+.direnv/
+
+# Local Netlify folder
+.netlify

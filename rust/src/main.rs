@@ -1,4 +1,4 @@
-
+mod two_sum;
 use two_sum::Solution;
 
 fn main() {

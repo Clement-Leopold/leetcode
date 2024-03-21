@@ -1,7 +1,10 @@
 mod two_sum;
-use two_sum::Solution;
+mod longest_palindrome5;
+use solution::Solution;
+mod solution;
+mod convert6;
 
 fn main() {
-    let ans = Solution::two_sum(vec![2, 7, 11, 15], 9);
+    let ans = Solution::convert("PAYPALISHIRING".to_string(), 3);
     print!("{:?}", ans);
 }

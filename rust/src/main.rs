@@ -3,6 +3,7 @@ mod longest_palindrome5;
 use solution::Solution;
 mod solution;
 mod convert6;
+mod is_palindrome_9;
 
 fn main() {
     let ans = Solution::convert("PAYPALISHIRING".to_string(), 3);
